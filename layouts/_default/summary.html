@@ -2,7 +2,7 @@
 	<time datetime="{{ .Date.Format 2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
 	<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
 	{{ range .Params.tags }}
-	<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+	<a href="{{ " /tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
 	{{ end }}
 	<div>
 		{{ .Summary }}
