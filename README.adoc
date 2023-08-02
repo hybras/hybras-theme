@@ -1,0 +1,26 @@
+= Hybras Theme
+
+My hugo theme
+
+
+== Links
+
+=== Themes
+
+* https://github.com/janraasch/hugo-bearblog[Bear]
+* https://github.com/athul/archie[Archie]
+* https://github.com/vividvilla/ezhil[Ezhil]
+* https://github.com/Mitrichius/hugo-theme-anubis[Anubis]
+* https://github.com/colorchestra/smol[Smol]
+* https://git.sr.ht/~mdkcore/qtrnn-hugo-theme[Qtrnn]
+
+=== Misc
+
+https://rgielen.net/posts/2019/creating-a-blog-with-hugo-and-asciidoctor/
+https://darshandsoni.com/asciidoctor-skins/
+https://github.com/darshandsoni/asciidoctor-skins
+https://gitlab.com/hugo-theme/hugo-theme-asciidoc
+https://github.com/foo-dogsquared/hugo-theme-arch-terminal
+https://github.com/devidw/hugo-theme-component-asciidoctor-skin
+https://github.com/Aloso/aloso.github.io/tree/main/assets
+https://www.cloudhadoop.com/hugo-cache-busting
