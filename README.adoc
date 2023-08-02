@@ -13,6 +13,10 @@ My hugo theme
 * https://github.com/Mitrichius/hugo-theme-anubis[Anubis]
 * https://github.com/colorchestra/smol[Smol]
 * https://git.sr.ht/~mdkcore/qtrnn-hugo-theme[Qtrnn]
+* https://github.com/Vimux/blank[Blank]
+** Latest posts sidebar
+** Homepage has Posts list, with summaries
+** Blog page has Posts list, with summaries
 
 === Misc
 
@@ -24,3 +28,6 @@ https://github.com/foo-dogsquared/hugo-theme-arch-terminal
 https://github.com/devidw/hugo-theme-component-asciidoctor-skin
 https://github.com/Aloso/aloso.github.io/tree/main/assets
 https://www.cloudhadoop.com/hugo-cache-busting
+
+https://davelage.com/posts/hugo-favicons/
+https://www.cssfontstack.com/
