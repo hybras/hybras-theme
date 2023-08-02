@@ -1,0 +1,10 @@
+name = "Hybras"
+license = "GPL"
+licenselink = "https://github.com/hybras/hybras-theme/blob/master/LICENSE"
+description = "My theme with no js"
+homepage = "https://github.com/hybras/hybras-theme"
+
+
+[author]
+name = "Hybras"
+homepage = "https://hybras.dev"
