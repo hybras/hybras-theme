@@ -1,13 +1,11 @@
 <header>
 	<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a><br>
 	<div style="float: right;">{{ .Site.Params.subtitle }}</div><br>
-	{{ with .Site.Menus.main }}
 	<nav>
 		<ul>
-			{{ range . }}
+			{{ range .Site.Menus.main }}
 			<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
 			{{ end }}
 		</ul>
 	</nav>
-	{{ end }}
 </header>
