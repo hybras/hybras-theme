@@ -1,0 +1,3 @@
+Params:
+  dateFormat: 'YY-MM-DD'
+  sidebar: true
