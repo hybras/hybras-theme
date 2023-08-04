@@ -1,10 +1,10 @@
-{{ if Site.Params.Comments }}
-    {{ if .Site.Params.Utterances.Repo }}
-        {{ partial "utterances.html" . }}
-    {{ else if .Site.Params.Giscus }}
-        {{ partial "giscus.html" . }}
-    {{ end }}
-    <noscript>
-        <div>Enable JavaScript to use comments.</div>
-    </noscript>
+{{ if site.Params.Comments }}
+{{ if site.Params.Utterances.Repo }}
+{{ partial "utterances.html" . }}
+{{ else if site.Params.Giscus }}
+{{ partial "giscus.html" . }}
+{{ end }}
+<noscript>
+    <div>Enable JavaScript to use comments.</div>
+</noscript>
 {{ end }}
