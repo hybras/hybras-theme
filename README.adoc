@@ -2,6 +2,12 @@
 
 My hugo theme
 
+== Features
+
+* Optional sidebar with `.Site.Params.sidebar`
+* Date Format
+* Comments through utteranc.es (giscus coming soon).
+
 
 == Links
 
