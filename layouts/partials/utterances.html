@@ -1,0 +1,12 @@
+{{ $theme := .Site.Params.Comments.Utterances.Theme | default "github-light" }}
+{{ $label := .Site.Params.Comments.Utterances.Label | default "" }}
+{{ $issue := .Site.Params.Comments.Utterances.Issue | default "url" }}
+{{ $repo := .Site.Params.Comments.Utterances.Repo | default "url" }}
+<script src="https://utteranc.es/client.js"
+        repo="{{ $repo }}"
+        theme="{{ $theme }}"
+        label="{{ $label }}"
+        issue-term="{{ $issue }}"
+        crossorigin="anonymous"
+        async>
+</script>

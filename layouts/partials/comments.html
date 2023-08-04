@@ -1,0 +1,10 @@
+{{ if .Site.Params.Comments }}
+    {{ if .Site.Params.Comments.Utterances }}
+        {{ partial "utterances.html" . }}
+    {{ else if .Site.Params.Comments.Giscus}}
+        {{ partial "giscus.html" . }}
+    {{ end }}
+    <noscript>
+        <div>Enable JavaScript to use comments.</div>
+    </noscript>
+{{ end }}
