@@ -17,12 +17,14 @@ My hugo theme
 * https://github.com/athul/archie[Archie]
 * https://github.com/vividvilla/ezhil[Ezhil]
 * https://github.com/Mitrichius/hugo-theme-anubis[Anubis]
-* https://github.com/colorchestra/smol[Smol]
 * https://git.sr.ht/~mdkcore/qtrnn-hugo-theme[Qtrnn]
+* https://github.com/colorchestra/smol[Smol]
+** pagination
 * https://github.com/Vimux/blank[Blank]
 ** Latest posts sidebar
 ** Homepage has Posts list, with summaries
 ** Blog page has Posts list, with summaries
+** Disqus comments
 
 === Misc
 

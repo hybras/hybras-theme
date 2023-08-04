@@ -7,7 +7,9 @@
     <meta name="description" content="{{ . }}">{{ end }}
     {{ with .Site.Params.author }}
     <meta name="author" content="{{ . }}">{{ end }}
-    <link rel="stylesheet" href="{{ " css/style.css" | relURL }}">
+
+    {{ partial "resource.html" (dict "context" . "type" "css" "filename" "css/main.css") }}
+    
     {{ with .OutputFormats.Get "RSS" -}}
     {{ printf `
     <link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
