@@ -3,14 +3,7 @@
 		<article>
 			<h1>{{ .Title }}</h1>
 			<time datetime="{{ .Date.Format .Site.Params.dateFormat }}">{{ .Date.Format .Site.Params.dateFormat }}</time>
-			{{ with .Params.tags }}
-			<div>
-				<ul id="tags">
-					{{ range . }}
-					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
-					{{ end }}
-				</ul>
-			</div>
+			{{ partial "tags.html" . }}
 			{{ end }}
 			<div>
 				{{ .Content }}
