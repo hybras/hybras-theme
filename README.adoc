@@ -7,6 +7,8 @@ My hugo theme
 * Optional sidebar with `.Site.Params.sidebar`
 * Date Format
 * Comments through utteranc.es (giscus coming soon).
+* Cache busting
+* Custom js
 
 
 == Links
@@ -17,6 +19,10 @@ My hugo theme
 * https://github.com/athul/archie[Archie]
 * https://github.com/vividvilla/ezhil[Ezhil]
 * https://github.com/Mitrichius/hugo-theme-anubis[Anubis]
+** Copy code button
+** dark mode
+** resource partial (with cache busting)
+** Comments
 * https://git.sr.ht/~mdkcore/qtrnn-hugo-theme[Qtrnn]
 * https://github.com/colorchestra/smol[Smol]
 ** pagination
