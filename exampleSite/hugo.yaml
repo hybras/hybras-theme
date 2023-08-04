@@ -1,3 +1,4 @@
 Params:
   dateFormat: 'YY-MM-DD'
   sidebar: true
+  summary: true

@@ -4,10 +4,9 @@
 	{{ range .Params.tags }}
 	<a href="{{ " /tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
 	{{ end }}
+	{{ if .Site.Params.summary }}
 	<div>
-		{{ .Summary }}
-		{{ if .Truncated }}
-		<a href="{{ .Permalink }}">Read more...</a>
-		{{ end }}
+		{{ .Summary | safeHTML }}
 	</div>
+	{{ end }}
 </article>
