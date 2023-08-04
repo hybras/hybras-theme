@@ -1,7 +1,7 @@
-{{ if .Site.Params.Comments }}
-    {{ if .Site.Params.Comments.Utterances }}
+{{ if Site.Params.Comments }}
+    {{ if .Site.Params.Utterances.Repo }}
         {{ partial "utterances.html" . }}
-    {{ else if .Site.Params.Comments.Giscus}}
+    {{ else if .Site.Params.Giscus }}
         {{ partial "giscus.html" . }}
     {{ end }}
     <noscript>

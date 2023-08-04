@@ -1,7 +1,7 @@
-{{ $theme := .Site.Params.Comments.Utterances.Theme | default "github-light" }}
-{{ $label := .Site.Params.Comments.Utterances.Label | default "" }}
-{{ $issue := .Site.Params.Comments.Utterances.Issue | default "url" }}
-{{ $repo := .Site.Params.Comments.Utterances.Repo | default "url" }}
+{{ $theme := .Site.Params.Utterances.Theme | default "github-light" }}
+{{ $label := .Site.Params.Utterances.Label | default "" }}
+{{ $issue := .Site.Params.Utterances.Issue | default "url" }}
+{{ $repo := .Site.Params.Utterances.Repo | default "url" }}
 <script src="https://utteranc.es/client.js"
         repo="{{ $repo }}"
         theme="{{ $theme }}"

@@ -2,3 +2,11 @@ Params:
   dateFormat: 'YY-MM-DD'
   sidebar: true
   summary: true
+  customJs: []
+  Comments: false
+  Utterances:
+    Theme: ''
+    Label: ''
+    Issue: ''
+    Repo: ''
+  Giscus: {}
