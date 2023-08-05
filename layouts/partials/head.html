@@ -13,8 +13,9 @@
     {{ partial "resource.html" (dict "context" $ "type" "js" "filename" . ) }}
     {{- end }}
 
-    {{ with .OutputFormats.Get "RSS" -}}
+    {{ with .OutputFormats.Get "rss" }}
     {{ printf `
-    <link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink site.Title | safeHTML }}
-    {{- end }}
+    <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+
 </head>
