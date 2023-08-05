@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default " en-us" }}">
-	{{ partialCached "head" . }}
+	{{ partialCached "head.html" . }}
 	<title>{{ .Title }}</title>
 
 	<body>
-		{{ partialCached "header" . }}
+		{{ partialCached "header.html" . }}
 		{{ block "main" . }}{{ end }}
-		{{ partialCached "footer" . }}
+		{{ partialCached "footer.html" . }}
 	</body>
 
 </html>
