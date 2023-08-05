@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
 {{ partialCached "head" . }}
+	<title>{{ .Title }}</title>
 <body>
 	{{ partialCached "header" . }}
 	{{ block "main" . }}{{ end }}
