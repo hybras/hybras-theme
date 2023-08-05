@@ -1,0 +1,18 @@
+{{/* Based on Anubis */}}
+
+{{ if or ( .PrevInSection ) ( .NextInSection ) }}
+<div class="pagination post-pagination">
+    {{ if .NextInSection }}
+    <div class="left pagination-item">
+        <a href="{{ .NextInSection.RelPermalink }}">"Next"</a>
+    </div>
+    {{ end }}
+
+    {{ if .PrevInSection }}
+    <div class="right pagination-item">
+        <a href="{{ .PrevInSection.RelPermalink }}">"Prev"</a>
+
+    </div>
+    {{ end }}
+</div>
+{{ end }}
