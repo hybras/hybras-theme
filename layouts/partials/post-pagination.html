@@ -4,14 +4,15 @@
 <div class="pagination post-pagination">
     {{ if .NextInSection }}
     <div class="left pagination-item">
-        <a href="{{ .NextInSection.RelPermalink }}">"Next"</a>
+        <a href="{{ .NextInSection.RelPermalink }}">Next</a><br>
+        <a href="{{ .NextInSection.RelPermalink }}">{{ .NextInSection.Title | truncate 20 }}</a>
     </div>
     {{ end }}
 
     {{ if .PrevInSection }}
     <div class="right pagination-item">
-        <a href="{{ .PrevInSection.RelPermalink }}">"Prev"</a>
-
+        <a href="{{ .PrevInSection.RelPermalink }}">Prev</a><br>
+        <a href="{{ .PrevInSection.RelPermalink }}">{{ .PrevInSection.Title | truncate 20 }}</a>
     </div>
     {{ end }}
 </div>
