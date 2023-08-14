@@ -1,10 +1,9 @@
 <article>
 	<time datetime="{{ .Date.Format .Site.Params.dateFormat }}">{{ .Date.Format .Site.Params.dateFormat }}</time>
 	<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-	{{ if .Site.Params.summary }}
+
 	<div>
 		{{ .Summary | safeHTML }}
 	</div>
-	{{ end }}
 	{{ partial "tags.html" . }}
 </article>
