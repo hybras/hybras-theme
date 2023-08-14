@@ -3,6 +3,7 @@
 	<article>
 		<h1>{{ .Title }}</h1>
 		<time datetime="{{ .Date.Format .Site.Params.dateFormat }}">{{ .Date.Format .Site.Params.dateFormat }}</time>
+		{{ partial "series.html" . }}
 		{{ partial "tags.html" . }}
 		<div>
 			{{ .Content }}

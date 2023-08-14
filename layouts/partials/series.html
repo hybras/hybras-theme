@@ -1,0 +1,25 @@
+{{ if isset .Params "series" }}
+{{ $series := (site.GetPage (printf "/series/%s" (index .Params.series 0) | urlize )) }}
+<div>
+    <details>
+        <summary>This article is part of a series:
+            <a href="{{ $series.Permalink }}">{{ $series.Title }}</a>
+        </summary>
+        <ol>
+            {{ range $num,$post := (index .Site.Taxonomies.series (index .Params.series 0 | urlize)).Pages.ByDate }}
+            {{ if eq $post.Permalink $.Page.Permalink }}
+            <li><strong>
+                    {{ $post.Params.title}}
+                </strong></li>
+            {{ else }}
+            <li>
+                <a href="{{ $post.Permalink }}">
+                    {{ $post.Params.title}}
+                </a>
+            </li>
+            {{ end }}
+            {{ end }}
+        </ol>
+    </details>
+</div>
+{{ end }}
