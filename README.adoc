@@ -23,6 +23,7 @@ My hugo theme
 ** dark mode
 ** resource partial (with cache busting)
 ** Comments
+** Post pagination
 * https://git.sr.ht/~mdkcore/qtrnn-hugo-theme[Qtrnn]
 * https://github.com/colorchestra/smol[Smol]
 ** pagination
@@ -31,6 +32,25 @@ My hugo theme
 ** Homepage has Posts list, with summaries
 ** Blog page has Posts list, with summaries
 ** Disqus comments
+
+=== Asciidoctor Skins
+
+* Boot
+** spacelab
+** readable
+** paper
+** Lumen
+** Flatly
+** Cosmo
+** Cerulean
+
+* Adoc
+** rubygems
+** Rocket panda
+** Riak
+** Readthedocs
+
+* Medium
 
 === Misc
 
